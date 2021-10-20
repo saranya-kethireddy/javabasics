@@ -1,5 +1,7 @@
 package basics;
 
+import objactclass.Util;
+
 public class Student {
       String name;
       int age;
@@ -16,6 +18,7 @@ public class Student {
     	  super();
     	  this.name = name;
     	  this.age = age+2;
+    	  this.age = Util.incrementByTen(age);
       }
       static String COLLEGE_NAME = "IIT";
       
